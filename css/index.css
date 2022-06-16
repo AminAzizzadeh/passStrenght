@@ -1,0 +1,112 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    outline: 0;
+    background-color: #212529;   
+}
+
+body{
+    background-color: #212529;
+}
+
+.pass{
+    display: block;
+    width: 250px;
+    height: 30px;
+    margin: 20px auto;
+    border: 1px solid #20c997;
+    border-radius: 5px;
+    padding: o 5px;
+}
+
+.showPass{
+    color: #8d8f91;
+}
+
+p{
+    background-color: #212529;
+    font-size: 30px;
+    font-family: sans-serif;
+    text-align: center;
+    line-height: 40px;
+}
+
+.charNumber{
+    color: white;
+}
+
+
+.bg{
+    width: 90%;
+    height: 100px;
+    margin-top: 20px;
+    border: 1px solid #20c997;
+    border-radius:12px;
+    box-sizing: content-box;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.passStrength{
+    width: 0px;
+    height: 100px;
+    box-sizing: border-box;
+    transition: all 500ms ease 0s;
+    color: white;
+    font-size: 30px;
+    font-family: sans-serif;
+    text-align: center;
+    line-height: 100px;
+}
+
+.passParts{
+    width: 420px;
+    margin: 0 auto;
+}
+
+.plugin{
+    font-size: 16px;
+    color:#8d8f91;
+    display: inline;
+    margin: 10px;
+}
+
+.pluginEnable{
+    color:#20c997 !important;
+
+}
+
+.red{
+    background-color:red;
+}
+.orange{
+    background-color: orange;
+}
+.yellow{
+    background-color: yellow;
+}
+.green{
+    background-color: green;
+}
+
+#guideBox{
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 475px;
+}
+
+#guide{
+    color: white;
+    text-align: center;
+    margin-top: 85px;
+}
+
+#guideData{
+    font-size: 18px;
+}
+
+.lenghtData{
+    font-size: 16px;
+    color:#8d8f91;
+}

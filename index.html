@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Strenght Checker</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+
+    <input type="password" class="pass">
+    <p class="charNumber">0</p>
+    <p class="showPass"></p>
+
+    <div class="bg">
+        <div class="passStrength"></div>
+    </div>
+
+    <div class="passParts">
+        <p class="smallWordTrue plugin ">Small Letter</p>
+        <p class="capitalWordTrue plugin">Capital Letter</p>
+        <p class="numberTrue plugin">Number</p>
+        <p class="charTrue plugin">Character</p>
+    </div>
+
+    <div id="guideBox">
+    <p id="guide">guide:<br><br><span id="guideData">Lenght: 40%:<br><span class="lenghtData">8-12 : 10%<br>13-16 : 20%<br>17-20 : 30%<br>20-... : 40%</span><br>Small Letter: 15%<br>Capital Letter: 15%<br>Number: 15%<br>Character: 15%</span></p>
+    </div>
+
+    <script src="js/index.js"></script>
+</body>
+
+</html>
